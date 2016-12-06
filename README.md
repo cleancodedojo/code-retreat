@@ -46,5 +46,25 @@ it only returns the element for information purposes-very similar to the peek me
 * isEmpty(): This returns true if the queue does not contain any elements, and false if the queue is bigger than 0.
 * size(): This returns the number of elements the queue contains. It is similar to the length property of the array.
 
+#### linked list
+* Linked lists store a sequential collection of elements; but unlike arrays, in linked lists,
+the elements are not placed contiguously in memory.
+* Each element consists of a node that stores the element itself and also a reference (also known as a pointer or link)
+that points to the next element.
+
+##### methods
+* append(element): This adds a new item to the end of the list.
+* insert(position, element): This inserts a new item at a specified position in the list.
+* remove(element): This removes an item from the list.
+* indexOf(element): This returns the index of the element in the list.
+If the element is not in the list, it returns -1.
+* removeAt(position): This removes an item from a specified position in the list.
+* isEmpty(): This returns true if the linked list does not contain any elements and
+false if the size of the linked list is bigger than 0.
+* size(): This returns the number of elements the linked list contains.
+It is similar to the length property of the array.
+* toString(): As the list uses a Node class as an item,
+we need to overwrite the default toString method inherited from the JavaScript object to output only the element values.
+
 ## references
 * Groner, Loiane. Learning JavaScript Data Structures and Algorithms - Second Edition.
